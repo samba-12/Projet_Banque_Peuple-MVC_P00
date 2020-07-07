@@ -1,0 +1,225 @@
+
+body{
+	background-repeat: no-repeat;
+	  background-size: cover; 
+}
+
+div {
+	width: 120px;
+  	height: 100px;
+  	margin-top:25px;
+  	margin-left: 200px;
+}
+
+h1 {
+	margin-bottom: 1px;
+	color: white;
+	margin-left: 650px;
+}
+h3{
+	margin-top: 10px;
+	color: white;
+	margin-left: 650px;
+}
+h2{
+    margin-left: 700px;
+    margin-top: 50px;
+}
+.choicl{
+	text-align: center;
+	margin-top: 50px;
+	    margin-left: -190px;
+}
+
+
+input{
+	margin-top: 10px;
+	background-color:#FCFCFC;
+	border-radius: 10px;
+	font-size: 20px;
+	border-color: black;
+	width: 400px;
+}
+.form{
+	width: 1100px;
+	height: 400px;
+	background-color: #00C3C7;
+	margin-top: 60px;
+	margin-left: 200px;
+}
+/*=============================================================*/
+.containerAj{
+	background-color: #FCFCFC;
+}
+.logoajout{
+	 position: absolute; /* postulat de départ */
+  top: 7%; left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%);
+}
+.menu{
+	background-color: #00C3C7;
+	font-size: 22px;
+	float: center;
+	text-align: center; 
+	height: 40px;
+}
+
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+li {
+  display: inline;
+}
+li a {
+  color: white;
+  padding: 14px 60px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 18px;
+}
+.formajout{
+	display: block;
+	float: left;
+	margin-left: 90px;
+}
+.formajout2{
+	display: block;
+	float: left;
+	margin-left:400px;
+}
+input{
+	margin-top: 10px;
+	background-color: #FCFCFC;
+	border-radius: 10px;
+	font-size: 20px;
+	border-color: white;
+}
+#list{
+	margin-top: 30px;
+	font-size: 15px;
+	width: 400px;
+	border-radius: 12px;
+	height: 32px;
+}
+.element4{
+		margin-top: 350px;
+}
+input[type="submit"] {
+    background-color: #00C3C7;
+    color: white;
+    font-size: 18px;
+    display: block;
+    width: 221px;
+    height: 40px;
+    margin-left: -117px;
+    margin-top: 260px;
+
+}
+input[type="reset"] {
+    background-color: #00C3C7;
+    color: white;
+    font-size: 18px;
+    display: block;
+    width: 221px;
+    height: 40px;
+    margin-left: -117px;
+    margin-top: 260px;
+
+}
+.col-container1{
+	margin-top: 300px;
+  text-align: center;
+  display: flex;
+  width: 100%;
+}
+.col-container1 {
+}
+.choix{
+	margin-top: 150px;
+	margin-left: 250px;
+	color: red;
+	font-size: 22px;
+}
+.a1{
+	background-color: #00C3C7;
+	    margin-left: 180px;
+}
+.a2{
+	background-color: #00C3C7;
+}
+.a3{
+	background-color: #00C3C7;
+}
+.imgagent{
+    width: 305px;
+    height: 242px;
+    float: left;
+    margin-left: 564px;
+    margin-top: -67px;
+}
+.infosagent{
+    margin-top: 100px;
+    font-size: 21px;
+    width: 185px;
+    height: 82px;
+}
+
+
+select {
+    width: 407px;
+    height: 28px;
+    border-radius: 12px;
+}
+.NB{
+	text-align: center;
+}
+.nbsal{
+	color: red;
+}
+#ifYes{
+    margin-left: 3px;
+}
+.checkme{
+    margin-left: 550px;
+    font-size: 24px;
+    }
+.check{
+    margin-left: 550px;
+    font-size: 24px;
+    }
+#yesCheck{
+    margin-left: -136px;
+ }
+ #noCheck{
+    margin-left: -146px;
+ }
+.check{
+    margin-left: 550px;
+    font-size: 24px;
+    }
+ #siCheck{
+    margin-left: -146px;
+ }
+ #sinoCheck{
+    margin-left: -146px;
+ }  
+#ok{
+	width: 20px;
+}
+.salaire{
+	font-size: 24px;
+	    margin-left: 597px;
+
+}
+
+@media screen and (max-width: 800px){
+	body{
+		background-color: red;
+	}
+
+}
+

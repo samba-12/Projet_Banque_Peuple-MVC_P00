@@ -1,0 +1,34 @@
+include './model/Dbaccess.php';
+include './modelEntreprise.php';
+
+echo "okey";
+ function addClientmoral()
+{
+
+    if(!empty($_POST)){
+
+        //$entreprise = new Entreprise();
+        $connexion = new Dbaccess();
+
+        $bd = $connexion->getConnexion();
+
+        $requete = $bd->prepare(
+            "INSERT INTO `client_entreprise`(`id_entreprise`, `nom`, `ninea`, `registre_commerce`) VALUES (null,?,?,?)");
+
+        $requete->execute
+        (array(
+                $_POST['nom'],
+                $_POST['ninea'],
+                $_POST['registre']
+            )
+        ) ;
+    }
+}
+if(isset($_POST) && !empty($_POST)){
+    addClientmoral();
+    die('ok');
+
+}
+else
+    die('erreur');
+
